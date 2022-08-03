@@ -3,7 +3,7 @@ import "../../App.css";
 
 export default function FakeButton() {
   return (
-    <button class="bg-fakeButtonColor hover:bg-fakeButtonColorHover text-white font-bold py-2 px-28 text-xl">
+    <button className="bg-fakeButtonColor hover:bg-fakeButtonColorHover text-white font-bold py-2 px-28 text-xl">
       Fake
     </button>
   );
