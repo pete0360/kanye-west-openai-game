@@ -1,24 +1,25 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/header";
-import Homescreen from "./components/HomeScreen/homescreen";
+import HomeScreen from "./components/HomeScreen/homescreen";
 import HowToPlayButton from "./components/HowToPlayButton/howToPlayButton";
-// import { useAppDispatch, useAppSelector } from "./app/hooks";
-// import { getData } from "./features/quoteData/quoteDataSlice";
+import GameOverScreen from "./components/gameOverScreen/GameOverScreen";
+
+import { useAppSelector } from "./app/hooks";
 
 function App() {
-  // const dispatch = useAppDispatch();
-
-  // function loadData() {
-  //   dispatch(getData());
-  // }
-
-  // loadData();
+  const isGameOver = useAppSelector((state) => state.gameOver.isGameOver);
 
   return (
     <div className="App">
-      <Header />
-      <Homescreen />
+      {isGameOver ? (
+        <GameOverScreen />
+      ) : (
+        <>
+          <Header />
+          <HomeScreen />
+        </>
+      )}
       <HowToPlayButton />
     </div>
   );
