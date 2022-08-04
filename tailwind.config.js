@@ -13,6 +13,7 @@ module.exports = {
         linkedInButtonHover: "#66644D",
         gitHubButton: "#925E78",
         gitHubButtonHover: "#5E3C4D",
+        dropDownCard: "#F3EDED",
       },
     },
   },
