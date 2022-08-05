@@ -8,7 +8,7 @@ export default function HowToPlayButton() {
   const dispatch = useAppDispatch();
 
   return (
-    <div className="h-1/6 m:h-1/5 flex flex-col justify-end content-center">
+    <div className="h-1/6 m:h-1/5 flex flex-col justify-center content-center">
       <button
         onClick={() => dispatch(toggleDropDown())}
         className="text-3xl text-howToPlayButtonColor"

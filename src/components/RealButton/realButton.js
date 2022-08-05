@@ -6,7 +6,7 @@ export default function realButton({ receiveClick }) {
     <button
       value={true}
       onClick={(e) => receiveClick(e.target.value)}
-      className="bg-realButtonColor hover:bg-realButtonColorHover text-white font-bold py-2 px-28 text-xl"
+      className="bg-realButtonColor hover:bg-realButtonColorHover text-white font-bold py-2 px-16 md:px-28 text-xl"
     >
       Real
     </button>

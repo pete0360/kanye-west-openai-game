@@ -23,7 +23,7 @@ export default function GameOverScreen() {
   }
 
   return (
-    <div className="h-4/5 flex flex-col justify-center content-center text-center max-w-5xl mx-auto">
+    <div className="h-4/6 flex flex-col justify-center content-center text-center max-w-5xl mx-auto">
       <span className=" text-8xl text-white font-bold">{score}</span>
       <div className="text-white text-5xl font-semibold my-5">{rank}</div>
       <button
