@@ -24,7 +24,7 @@ export default function GameOverScreen() {
 
   return (
     <div className="h-4/6 flex flex-col justify-center content-center text-center max-w-5xl mx-auto">
-      <span className=" text-8xl text-white font-bold">{score}</span>
+      <span className=" text-8xl text-white font-bold mt-6">{score}</span>
       <div className="text-white text-5xl font-semibold my-5">{rank}</div>
       <button
         onClick={onClickHandle}
