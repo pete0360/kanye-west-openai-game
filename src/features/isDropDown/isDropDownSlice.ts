@@ -5,7 +5,7 @@ interface dropDownState {
 }
 
 const initialState: dropDownState = {
-  isDropDown: true,
+  isDropDown: false,
 };
 
 const DropDownSlice = createSlice({

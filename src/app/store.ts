@@ -5,6 +5,7 @@ import quoteDataReducer from "../features/quoteData/quoteDataSlice";
 import currentDataSlice from "../features/currentData/currentDataSlice";
 import isGameOverSlice from "../features/isGameOver/isGameOverSlice";
 import isDropDownSlice from "../features/isDropDown/isDropDownSlice";
+import showIconSlice from "../features/showIcon/showIconSlice";
 
 export const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ export const store = configureStore({
     currentData: currentDataSlice,
     gameOver: isGameOverSlice,
     dropDown: isDropDownSlice,
+    icons: showIconSlice,
   },
 });
 

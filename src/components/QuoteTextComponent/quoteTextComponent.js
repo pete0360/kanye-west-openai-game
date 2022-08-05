@@ -5,7 +5,7 @@ import { useAppSelector } from "../../app/hooks";
 function QuoteTextComponent() {
   const quote = useAppSelector((state) => state.currentData.value);
   return (
-    <div className="text-center h-fit px-10 text-3xl text-white mb-28">
+    <div className="text-center h-2/5 md:h-1/4 px-10 text-3xl py-auto text-white mb-10">
       {quote}
     </div>
   );
