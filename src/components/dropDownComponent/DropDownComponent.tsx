@@ -12,7 +12,7 @@ export default function DropDownComponent() {
         className="w-screen h-screen absolute bg-black z-40 opacity-[.7]"
       ></div>
       <div className="bg-dropDownCard absolute z-50 w-4/5 h-3/5  left-1/2 -translate-x-1/2 translate-y-1/2 -top-24 rounded-lg text-center flex flex-col justify-start p-2">
-        <div className=" font-sans text-4xl font-semibold my-16">
+        <div className=" font-sans text-4xl font-semibold my-12">
           How to play
         </div>
         <div className=" font-sans text-xl font-light">
