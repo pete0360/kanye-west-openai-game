@@ -9,9 +9,9 @@ export default function DropDownComponent() {
     <>
       <div
         onClick={() => dispatch(toggleDropDown())}
-        className="w-screen h-screen absolute bg-black z-40 opacity-[.7]"
+        className="w-screen h-screen absolute inset-0 bg-black z-40 opacity-[.7]"
       ></div>
-      <div className="bg-dropDownCard absolute z-50 w-4/5 h-3/5  left-1/2 -translate-x-1/2 translate-y-1/2 -top-24 rounded-lg text-center flex flex-col justify-start p-2">
+      <div className="bg-dropDownCard absolute z-50 w-4/5 h-3/5 md:w-3/5 md:h-3/5  left-1/2 -translate-x-1/2 translate-y-1/2 -top-24 rounded-lg text-center flex flex-col justify-start p-2">
         <div className=" font-sans text-4xl font-semibold my-12">
           How to play
         </div>

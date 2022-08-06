@@ -13,7 +13,7 @@ function App() {
   const isDropDown = useAppSelector((state) => state.dropDown.isDropDown);
 
   return (
-    <div className="App">
+    <div className="App md:p-3">
       {isDropDown && <DropDownComponent />}
       {isGameOver ? (
         <GameOverScreen />
