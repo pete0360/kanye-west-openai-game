@@ -47,10 +47,10 @@ export default function HomeScreen() {
       <QuoteTextComponent />
       <div className="relative">
         {checkIcon && (
-          <CheckCircleIcon className=" w-36 absolute z-10 -top-12 left-1/2 text-green-500 -translate-y-3/4 -translate-x-2/4" />
+          <CheckCircleIcon className=" w-36 absolute z-10 -top-12 md:top-16 left-1/2 text-green-500 -translate-y-3/4 -translate-x-2/4" />
         )}
         {xIcon && (
-          <XCircleIcon className=" w-36 absolute z-10 -top-12 left-1/2 text-red-500 -translate-y-3/4 -translate-x-2/4" />
+          <XCircleIcon className=" w-36 absolute z-10 -top-12 md:top-16 left-1/2 text-red-500 -translate-y-3/4 -translate-x-2/4" />
         )}
       </div>
       <div className="flex flex-row justify-evenly">
