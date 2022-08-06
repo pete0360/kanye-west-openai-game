@@ -6,7 +6,7 @@ export default function FakeButton({ receiveClick }) {
     <button
       value={false}
       onClick={(e) => receiveClick(e.target.value)}
-      className="bg-fakeButtonColor hover:bg-fakeButtonColorHover text-white font-bold py-2 px-16 md:px-28 text-xl"
+      className="bg-fakeButtonColor hover:bg-fakeButtonColorHover text-white font-bold py-2 px-16 md:px-32 text-xl md:text-3xl"
     >
       Fake
     </button>

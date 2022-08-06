@@ -12,7 +12,7 @@ export default function Header() {
         <span className="pr-3 md:pr-0">{highScoreValue}</span>
         <span className="">HighScore</span>
       </div>
-      <h1 className="text-white hidden md:block text-5xl">Kanyaint</h1>
+      <h1 className="text-white hidden md:block text-5xl">The Kanye Test</h1>
       <div className="text-white flex flex-row-reverse md:flex-col md:items-end  mr-2 text-3xl">
         <span className="">{scoreValue}</span>
         <span className="pr-3 md:pr-0">Score</span>
